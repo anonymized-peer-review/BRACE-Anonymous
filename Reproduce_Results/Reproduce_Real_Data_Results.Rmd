@@ -30,13 +30,13 @@ The cross-sectional ORIGINS study included 152 adults without diabetes (77\% fem
 
 Load the phyloseq object: ORIGINS Study. 
 ```{r}
-pseq<-readRDS("/Users/satab/Documents/RevisedBRACElet_Results/Demmer/Demmer_phyloseq_processed.Rdata")
+pseq<-readRDS("Demmer_phyloseq_processed.Rdata")
 #pseq
 ```
 
 For faster processing of outputs, we load the saved outputs from running BRACE on the real data example.
 ```{r}
-load("/Users/satab/Documents/RevisedBRACElet_Results//Demmer/n111_p130DemmerWholeData.RData")
+load("n111_p130DemmerWholeData.RData")
 #number of samples after burning
 nsamp = 5000
 # number of burn samples
@@ -110,7 +110,7 @@ ORIGINS data. The red dot highlights the elbow point, representing the optimal b
 between model complexity and fit.
 
 ```{r}
-load("/Users/satab/Documents/RevisedBRACElet_Results//Demmer/n111_p130DemmerWholeDataSalsoResults.Rdata")
+load("n111_p130DemmerWholeDataSalsoResults.Rdata")
 # Extract expectedLoss from each element in summary.results
 expected_losses <- sapply(summary.results, function(res) attr(res$estimate, "info")$expectedLoss)
 
@@ -441,7 +441,7 @@ ences in functional abundances across clusters.
 
 ```{r}
 #Load the count matrices for the functional variables corresponding to the selected species
-load("/Users/satab/Documents/RevisedBRACElet_Results/Demmer/species_group.RData")
+load("species_group.RData")
 #names(species_grouped_list)
 cluster_labels<- c(1,2,3,4,5,
                    5,2,2,1,3,
