@@ -1,6 +1,6 @@
 ---
 title: "BRACE: Application to Oral Microbiome Data"
-author: "Satabdi Saha"
+
 output:
   pdf_document: default
   html_notebook: default
