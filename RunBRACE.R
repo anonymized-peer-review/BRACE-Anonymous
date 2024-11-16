@@ -8,7 +8,7 @@ simdata = simdata_dep
 n = n
 p = p
 #Load required functions
-setwd("/BRACElet/Required Functions")
+setwd("/BRACE/Required Functions")
 source("helperFunctions.R") # helper functions 
 source("sampling.functions.DP.R") #sample theta, gamma_sqr, sigma_sqr, alpha
 source("optim_sampling_functions_DP.R") # optimized version
