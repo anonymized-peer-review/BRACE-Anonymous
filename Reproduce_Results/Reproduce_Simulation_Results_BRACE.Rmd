@@ -1,6 +1,6 @@
 ---
 title: "BRACE - Simulation Study"
-author: "Satabdi Saha"
+
 output:
   pdf_document: default
   html_notebook: default
