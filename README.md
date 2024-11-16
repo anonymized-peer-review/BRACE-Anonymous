@@ -10,8 +10,8 @@ This directory has all the functions required for running scripts Simulation.R a
 
 # Other files
 * Simulation.R simulates data for an example case study.
-* RunBRACElet.R runs BRACElet for the simulated data example with compositional predictors and a continuous response.
-* ProcessOutputs.R processes the outputs returned by RunBRACElet.R and calculates the performance metrics.
+* RunBRACE.R runs BRACE for the simulated data example with compositional predictors and a continuous response.
+* ProcessOutputs.R processes the outputs returned by RunBRACE.R and calculates the performance metrics.
 
 # Reproduce Results 
 This directory contains data and code files for reproducing the simulation and real data results in the main manuscript.
