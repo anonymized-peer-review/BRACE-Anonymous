@@ -1,7 +1,6 @@
-#Independent Data
 library(rockchalk)
 set.seed(333)
-source("generate_compositional_data_replicates.R")
+source("Required Functions/generate_compositional_data_replicates.R")
 #Number of replicates
 repl = 10
 #Correlation coefficient
