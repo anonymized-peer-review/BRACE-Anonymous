@@ -1,5 +1,3 @@
-Flexible aggregation of compositional predictors with shared effects.
-
 # BRACE
 The paper "Flexible aggregation of compositional predictors with shared effects" presents a novel method, Bayesian Regression with Agglomerated Compositional Effects (BRACE) for rare feature clustering and variable selection in high dimensional compositional regression models. 
 
