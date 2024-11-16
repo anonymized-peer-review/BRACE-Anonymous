@@ -16,7 +16,7 @@ library(gridExtra)
 
 Load processed simulation outputs for BRACE for the simulation scenarios Dep1 and Dep2 where $n=300$, SNR = 1, $p=100, 300, 1000$.
 ```{r}
-df<-readRDS("/Users/ssaha1/Documents/Revised_BRACElet/Output/BRACElet/Processed_Simulation_Outputs_Metrics_Plot.rds")
+df<-readRDS("Processed_Simulation_Outputs_Metrics_Plot.rds")
 ```
 
 Create the metrics plot. This plot reproduces the BRACE simulation results shown in Table 1 and 2 in the main paper
@@ -68,7 +68,7 @@ We have omitted the plots for the false positive and false negative metrics, as 
 Main Paper Figure 2: Boxplots showing the adjusted Rand indices calculated by comparing the true and predicted cluster labels in the two dependent setup with the number of predictors set to $p = 100, 300$, and $1000.$
 
 ```{r}
-df<-readRDS("/Users/ssaha1/Documents/Revised_BRACElet/Output/BRACElet/Processed_Outputs_ARI_Plot.rds")
+df<-readRDS("Processed_Outputs_ARI_Plot.rds")
 # Create the plot with custom labels and legend at the bottom
 pplot<-ggplot(df, aes(x = Deplabels, y = values)) + 
   geom_boxplot(aes(fill = plabels)) +
