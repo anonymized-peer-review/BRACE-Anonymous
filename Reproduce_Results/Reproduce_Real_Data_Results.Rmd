@@ -30,7 +30,7 @@ The cross-sectional ORIGINS study included 152 adults without diabetes (77\% fem
 
 Load the phyloseq object: ORIGINS Study. 
 ```{r}
-pseq<-readRDS("./Reproduce_Results/Real_Data/Demmer_phyloseq_processed.Rdata")
+pseq<-readRDS("./Reproduce_Results/Real_Data/Demmer_phyloseq_processed.rds")
 #pseq
 ```
 
